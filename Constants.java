@@ -1,22 +1,29 @@
-package ISU;
-public class Constants {
-    public static int BOARD_WIDTH = 1000;
-    static int BOARD_HEIGHT = 800;
-    static int BORDER_RIGHT = 30;
-    static int BORDER_LEFT = 5;
+package com.SPACEWARS;
+/**created by 
+ * Sarvnaz Alemohammad
+ */
 
-    static int GROUND = 290;
-    static int BOMB_HEIGHT = 5;
+public interface Constants {
+    //list of constants used in the game
+    
+    int BOARD_WIDTH = 1000;
+    int BOARD_HEIGHT = 800;
 
-    static int ALIEN_HEIGHT = 12;
-    static int ALIEN_WIDTH = 12;
-    static int ALIEN_INIT_X = 150;
-    static int ALIEN_INIT_Y = 5;
+    int GROUND = 700;
+    int BHEIGHT = 5;
 
-    static int GO_DOWN = 15;
-    static int NUMBER_OF_ALIENS_TO_DESTROY = 24;
-    static int CHANCE = 5;
-    static int DELAY = 17;
-    static int PLAYER_WIDTH = 15;
-    static int PLAYER_HEIGHT = 10;
+    int ALIEN_HEIGHT = 12;
+    int ALIEN_WIDTH = 12;
+    int ALIEN_INIT_X = 100;
+    int ALIEN_INIT_Y = 5;
+    int ALIEN_INIT_X2 = 850;
+    int ALIEN_INIT_Y2 = 5;
+
+
+    int DOWN = 15;
+    int NUMBER_OF_ALIENS_TO_DESTROY = 6;
+    int CHANCE = 5;
+    int DELAY = 17;
+    int PLAYER_WIDTH = 15;
+    int PLAYER_HEIGHT = 12;
 }
